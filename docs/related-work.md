@@ -18,6 +18,6 @@ This later work is relevant to the history of this repository, but there is no c
 
 ## References
 
-- Samuel Tomás Gutiérrez Russell, *Developing and testing an ultra-low-cost star tracker for attitude determinations of nanosatellites*, University of Chile, 2023.
-- Michael W. Richmond, **MATCH — a program for matching star lists**.
-- SOST / SPEL Open Star Tracker: https://github.com/spel-uchile/Star_Tracker
+- Samuel Tomás Gutiérrez Russell, *Developing and testing an ultra-low-cost star tracker for attitude determinations of nanosatellites*, University of Chile, 2023. [Thesis record in the University of Chile repository](https://repositorio.uchile.cl/handle/2250/194384).
+- Michael W. Richmond, **MATCH — a program for matching star lists**. The original author and licensing notices are retained with the third-party source under [`third_party/MATCH/`](../third_party/MATCH/).
+- SOST / SPEL Open Star Tracker: [project repository](https://github.com/spel-uchile/Star_Tracker).
