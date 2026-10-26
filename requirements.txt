@@ -1,3 +1,4 @@
 astropy
+ipykernel
 matplotlib
 nbconvert
