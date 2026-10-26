@@ -27,6 +27,7 @@ jobs:
           --to notebook
           --execute
           --ExecutePreprocessor.timeout=120
+          --ExecutePreprocessor.cwd=analysis
           --output executed-notebook.ipynb
           --output-dir /tmp
           analysis/coordinate-matching-exploration.ipynb
