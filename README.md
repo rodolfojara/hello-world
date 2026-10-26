@@ -26,4 +26,4 @@ See [`docs/related-work.md`](docs/related-work.md) for more context.
 
 ## Repository status
 
-This is a historical research record rather than a maintained software product. The repository is being cleaned up to distinguish third-party MATCH source code from the exploratory analysis carried out during the internship.
+This is a historical research record rather than a maintained software product. The repository separates the exploratory notebook under `analysis/` from the original MATCH distribution and its sample data under `third_party/MATCH/`.
