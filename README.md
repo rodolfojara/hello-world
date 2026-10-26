@@ -24,6 +24,14 @@ This repository is **not part of the SOST development and does not claim any con
 
 See [`docs/related-work.md`](docs/related-work.md) for more context.
 
-## Repository status
+## Repository layout
 
-This is a historical research record rather than a maintained software product. The repository separates the exploratory notebook under `analysis/` from the original MATCH distribution and its sample data under `third_party/MATCH/`.
+- `analysis/`: exploratory notebook and notes about the analysis.
+- `third_party/MATCH/`: original MATCH distribution, its license/copyright notices, and its sample data.
+- `docs/related-work.md`: context on later related star-tracker research.
+
+## Status and validation
+
+This is a historical research record rather than a maintained software product. The notebook reads and plots two sample star lists, then applies a recorded affine coordinate transformation to one list for visual comparison. It does not implement a complete star-identification or spacecraft-attitude solution.
+
+The repository includes a GitHub Actions workflow that attempts to execute the notebook on changes. The notebook should not be considered validated until that workflow completes successfully.
