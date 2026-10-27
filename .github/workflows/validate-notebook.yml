@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - cleanup/small-satellite-tracking-study
+      - master
   pull_request:
     branches:
       - master
