@@ -34,4 +34,4 @@ See [`docs/related-work.md`](docs/related-work.md) for more context.
 
 This is a historical research record rather than a maintained software product. The notebook reads and plots two sample star lists, then applies a recorded affine coordinate transformation to one list for visual comparison. It does not implement a complete star-identification or spacecraft-attitude solution.
 
-The repository includes a GitHub Actions workflow that attempts to execute the notebook on changes. The notebook should not be considered validated until that workflow completes successfully.
+The notebook executed successfully in GitHub Actions on the cleanup branch (Python 3.11). The workflow runs on changes to this branch and to `master`; it checks that the notebook's dependencies and sample-data paths work, but it does not validate the scientific accuracy of the approach.
