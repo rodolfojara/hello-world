@@ -1,0 +1,4 @@
+astropy
+ipykernel
+matplotlib
+nbconvert
